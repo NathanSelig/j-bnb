@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import HistInfo from './components/histInfo'
+import NavBar from './components/navbar'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='scrollbar-hide'>
+      <NavBar />
+      <div className='flex h-screen w-full'>
+        <div className="bg-main bg-cover bg-center bg-no-repeat flex-1">
+          <HistInfo />
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
