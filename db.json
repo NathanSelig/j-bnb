@@ -1,0 +1,21 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "content": "my educated Review",
+      "name": "Nathan Selig",
+      "rating": 5
+    },{
+      "id": 2,
+      "content": "this is amazing place to live",
+      "name": "Ezra Silver",
+      "rating": 4
+    },{
+      "id": 3,
+      "content": "this is amazing place to live",
+      "name": "Benji Rizman",
+      "rating": 4
+    }
+
+  ]
+}
