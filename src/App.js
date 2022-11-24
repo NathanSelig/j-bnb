@@ -7,13 +7,11 @@ import NavBar from './components/navbar'
 import Reviews from './components/reviews'
 import Footer from './components/footer'
 
-//TODOhandles people writing reviews
-
 
 function App() {
- 
- 
- 
+
+
+
   return (
     <div >
       <NavBar />
